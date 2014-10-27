@@ -1,0 +1,18 @@
+# SQLite version 3.x
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: example_development
+  pool: 5
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: example_production
+  pool: 5
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: example_test
+  pool: 5
